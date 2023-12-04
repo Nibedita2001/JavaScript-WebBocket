@@ -27,5 +27,7 @@ const name = new String("Nibedita");   //through object
 // const url = "www.webbocket.com";                //replace - replace the element
 // console.log(url.replace("com", "in"));
 
-const demo = "gift-is-a-good-college";              //split method
-console.log(demo.split('-'));
+// const demo = "gift-is-a-good-college";              //split method
+// console.log(demo.split('-'));
+
+
