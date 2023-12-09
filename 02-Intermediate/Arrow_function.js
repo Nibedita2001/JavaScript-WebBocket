@@ -24,19 +24,19 @@ console.log(user);
 // }
 // console.log(addTwoNos(5,5));
 
-// const user = {
-//     userName : "Nibedita",
-//     location : "bbsr",
-//     welcomeMessage : function() {
-//         console.log(`${this.userName}, Good morning`);
-//         console.log(this);
-//     }
-// }
-// // console.log(user);
-//console.log(user.welcomeMessage);
-//user.welcomeMessage();
-// user.userName = "Nita";
-// user.welcomeMessage();
+const user = {
+    userName : "Nibedita",
+    location : "bbsr",
+    welcomeMessage : function() {
+        console.log(`${this.userName}, Good morning`);
+        console.log(this);
+    }
+}
+// console.log(user);
+console.log(user.welcomeMessage);
+user.welcomeMessage();
+user.userName = "Nita";
+user.welcomeMessage();
 
 // const person = {
 //     name : "abc",
@@ -64,12 +64,12 @@ console.log(user);
 // }
 // const addNos = (num1,num2) => num1 + num2;  //if there is only one line code then we can remove the function body means ({}) curly braces.
 
-// console.log(addTwoNos(5,9));
-// console.log(addNos(8,8));
+console.log(addTwoNos(5,9));
+console.log(addNos(8,8));
 
-// const addTwo = (num1,num2) => ({username : "Web_Bocket"})
-// console.log(addTwo(3,4));
+const addTwo = (num1,num2) => ({username : "Web_Bocket"})
+console.log(addTwo(3,4));
 
-// const addTwo1 = () => ({username : "Web_Bocket"})
-// console.log(addTwo1);
+const addTwo1 = () => ({username : "Web_Bocket"})
+console.log(addTwo1);
 
