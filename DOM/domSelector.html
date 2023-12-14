@@ -1,0 +1,46 @@
+<!-- 
+- DOM -> Defination :- DOM stands for "document object model" and it's a tree like structure of the content of a webpage.
+- A tree of 'nodes' with different relationship depending on how they arranged in the html file.
+- targetting nodes -> when we targetting nodes with element we use different selector property like 
+    1. getElementById - access the id of html document
+    2. getElementByClass - access the class of html document
+    3. querySelector - access the selected query, which we have selected
+    4. querySelectorAll - access all query in that name that present
+    5. textContent - access only text of the tag
+
+        <h1>Today is monday</h1>        
+        result :- Today is monday
+
+    6. innerText - access all text with child text also
+
+        <h1>Today is monday<span>gift is good</span></h1>       
+        result :- Today is monday gift is good
+
+    7. innerHTML - access all the inner html in the tag line
+
+        <h1>Today is monday<span>gift is good</span></h1>    
+        result :- <h1>Today is monday<span>gift is good</span></h1>
+        
+ -->
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today we learned DOM</title>
+</head>
+<body style="background-color: black; color: white;">
+    <div class="heading">
+        <h1 id="title" class="heading">Today we have learned the dom selector properties and types <span style="display:none;">Gift is a good college</span> </h1>
+
+        <h2>Today is Thursday</h2>
+        <h2>Today is Thursday</h2>
+        <h2>Today is Thursday</h2>
+        <h2>Today is Thursday</h2>
+        <h2>Today is Thursday</h2>
+
+        <p>Those who are not present in cricket ground they have penalty of 1k</p>
+    </div>
+</body>
+</html>
