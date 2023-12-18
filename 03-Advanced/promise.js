@@ -39,7 +39,7 @@ ans.then(function() {
     console.log("Rejected the condition");
 })
 
-Ans 2:-
+// Ans 2:-
 var ans = new Promise(function(res,rej) {
     return res("reach the house");
 })
