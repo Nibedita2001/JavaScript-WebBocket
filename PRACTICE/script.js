@@ -33,8 +33,10 @@
 // console.log(document.body.firstChild);
 // console.log(document.body.lastChild);
 
-let div = document.querySelector("div");
-console.dir(div);
+// let div = document.querySelector("div");
+// console.dir(div);
 
-let heading = document.querySelector("h1");
-console.log(heading);
+// let heading = document.querySelector("h1");
+// console.log(heading);
+
+
