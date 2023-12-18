@@ -1,0 +1,15 @@
+#myHeading {
+        color:rgb(255, 89, 0);
+        background-color: rgb(9, 255, 0) ;
+    }
+body {
+    background-color: pink;
+}
+button {
+    background-color: blue;
+    color:white;
+}
+.myClass {
+    background-color: aqua;
+    color:hotpink;
+}
